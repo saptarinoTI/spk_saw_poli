@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400..800&family=Fugaz+One&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    html {
+        font-family: "Sen", sans-serif !important;
+    }
+    a {
+        text-decoration: none !important;
+    }
+}
+
+@layer components {
+    .logo-text {
+        font-family: "Fugaz One", system-ui !important;
+        @apply font-bold;
+    }
+}
